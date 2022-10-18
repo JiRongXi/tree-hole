@@ -1,0 +1,29 @@
+/* pages/data_table/data_table.wxss */
+page{
+    background-image: linear-gradient(to bottom right, #e4ebf8, #4893fc);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.tbale{
+    margin-top: 17%;
+    margin-left: 10%; 
+    font-size:50rpx;
+    color: #585947;
+    font-weight: 600;
+}
+.tr{
+    height: 100rpx;
+    margin-top: 80rpx;
+    line-height: 100rpx;
+
+    margin-left: 8%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.th{
+    width: 60%;
+}

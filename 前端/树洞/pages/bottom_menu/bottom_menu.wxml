@@ -1,0 +1,6 @@
+<!--pages/bottom_menu/bottom_menu.wxml-->
+<view class="page1">
+    <view class="v1" bindtap="go1">广场</view>
+    <image src="/images/add.png" class="image1" bindtap="goadd" ></image>
+    <view class="v2" bindtap="go2">我的</view>
+</view>

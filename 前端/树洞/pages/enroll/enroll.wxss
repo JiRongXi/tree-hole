@@ -1,0 +1,57 @@
+/* pages/enroll/enroll.wxss */
+page {
+    left: 0rpx;
+    right: 0rpx;
+    background-color: white;
+}
+
+.input1{
+    width: 90%;
+    height: 100rpx;
+    margin-top: 80rpx;
+    background-color: #F2F2F2;
+    text-align:left;
+    padding-left: 8%;
+}
+
+.input2{
+    width: 90%;
+    height: 100rpx;
+    margin-top: 30rpx;
+    justify-content:center;
+    background-color: #F2F2F2;
+    padding-left: 8%;
+}
+
+.click{
+    width: 90%;
+    height: 100rpx;
+    line-height: 100rpx;
+    margin-top: 50rpx;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    background-color: #F76968;
+    color:white;
+    font-size: 33rpx;
+    border-radius: 10rpx;
+
+}
+.view1{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.view2{
+    width: 90%;
+    height: 50rpx;
+    margin-top: 30rpx;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.view3{
+    color: black;
+    font-size: 28rpx;
+    margin-left: 15rpx;
+
+}

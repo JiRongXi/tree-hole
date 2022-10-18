@@ -1,0 +1,41 @@
+/* pages/bottom_menu/bottom_menu.wxss */
+.page1 {
+    background-color: white;
+    width: 100%;
+    height: 7%;
+    bottom: 0rpx;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.v1 {
+    width: 250rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:#979797;
+    font-size: 38rpx;
+    font-weight:600;
+}
+
+.v2 {
+    width: 250rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:#979797;
+    font-size: 38rpx;
+    font-weight:600;
+}
+
+.image1{
+    margin-top: 5rpx;
+    width: 110rpx;
+    height: 110rpx;
+    border-radius: 10rpx;
+}

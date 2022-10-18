@@ -1,0 +1,14 @@
+<!--pages/login/login.wxml-->
+<view class="view1">
+    <view>
+        <input placeholder="手机号" class="input1" type="number" bindinput="phonenumberInput"></input>
+    </view>
+    <view>
+        <input placeholder="登录密码" class="input2" type="password" bindinput="passwordInput"></input>
+    </view>
+</view>
+<view class="login" bindtap="login">登录</view>
+
+<view class="view2">
+    <view class="view3" bindtap="register">还没账号，点击注册</view>
+</view>

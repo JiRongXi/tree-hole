@@ -1,0 +1,29 @@
+/* pages/message_report/message_report.wxss */
+/* pages/message_report/meassage_report.wxss */
+page {
+    background-color: #efefef;
+}
+
+.textarea {
+    background-color: white;
+    width: 92%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    font-size: 38rpx;
+
+}
+
+.click {
+    width: 80%;
+    height: 100rpx;
+    line-height: 100rpx;
+    margin-top: 50rpx;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    background-color: #F76968;
+    color: white;
+    font-size: 33rpx;
+    border-radius: 10rpx;
+}

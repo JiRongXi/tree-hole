@@ -1,0 +1,40 @@
+[ 2021-12-12T21:36:48+08:00 ] ::1 /treehole/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0338s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13411945045' LIMIT 1   [ RunTime:0.0169s ]
+
+[ 2021-12-12T21:36:49+08:00 ] ::1 /treehole/index.php/Home/Message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `message` WHERE `u_id` = 7 ORDER BY m_id desc  [ RunTime:0.0191s ]
+
+[ 2021-12-12T21:58:41+08:00 ] ::1 /treehole/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13411945045' LIMIT 1   [ RunTime:0.0033s ]
+
+[ 2021-12-12T21:58:42+08:00 ] ::1 /treehole/index.php/Home/Message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `message` WHERE `u_id` = 7 ORDER BY m_id desc  [ RunTime:0.0022s ]
+

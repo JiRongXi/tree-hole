@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#efefef",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "举报树洞消息",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light"
+}

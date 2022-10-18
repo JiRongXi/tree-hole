@@ -1,0 +1,212 @@
+[ 2022-02-04T22:48:40+08:00 ] ::1 /treehole/index.php/Home/User/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001863s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1608s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13005416408' LIMIT 1   [ RunTime:0.0974s ]
+SQL: SELECT * FROM `user` WHERE `username` = '小可爱' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `user` (`username`,`phone`,`password`,`face_url`) VALUES ('小可爱','13005416408','e10adc3949ba59abbe56e057f20f883e','https://img2.baidu.com/it/u=395719964,2145680590&fm=26&fmt=auto') [ RunTime:0.0158s ]
+
+[ 2022-02-04T22:48:55+08:00 ] ::1 /treehole/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13005416408' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2022-02-04T22:48:55+08:00 ] ::1 /treehole/index.php/Home/Message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0633s ]
+SQL: SELECT * FROM `message` WHERE `u_id` = 62 ORDER BY m_id desc  [ RunTime:0.0699s ]
+
+[ 2022-02-04T22:49:04+08:00 ] ::1 /treehole/index.php/Home/User/changeFace_url
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `user` WHERE `u_id` = 62 LIMIT 1   [ RunTime:0.0189s ]
+SQL: UPDATE `user` SET `face_url`='http://tmp/gdpkq2DsjiKS1b1a7f3bfe31ecc26a4a9e0a79dd902d.jpeg' WHERE `u_id` = 62 [ RunTime:0.0332s ]
+SQL: UPDATE `message` SET `face_url`='http://tmp/gdpkq2DsjiKS1b1a7f3bfe31ecc26a4a9e0a79dd902d.jpeg' WHERE `u_id` = 62 [ RunTime:0.0010s ]
+SQL: UPDATE `comment` SET `face_url`='http://tmp/gdpkq2DsjiKS1b1a7f3bfe31ecc26a4a9e0a79dd902d.jpeg' WHERE `u_id` = 62 [ RunTime:0.0320s ]
+
+[ 2022-02-04T22:49:04+08:00 ] ::1 /treehole/index.php/Home/Message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `message` WHERE `u_id` = 62 ORDER BY m_id desc  [ RunTime:0.0018s ]
+
+[ 2022-02-04T22:49:09+08:00 ] ::1 /treehole/index.php/Home/User/changUsername
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `u_id` = 62 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `message` WHERE `u_id` = 62 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `username` = '小可爱1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `user` SET `username`='小可爱1' WHERE `u_id` = 62 [ RunTime:0.0003s ]
+SQL: UPDATE `message` SET `username`='小可爱1' WHERE `u_id` = 62 [ RunTime:0.0003s ]
+SQL: UPDATE `comment` SET `username`='小可爱1' WHERE `u_id` = 62 [ RunTime:0.0007s ]
+
+[ 2022-02-04T22:49:10+08:00 ] ::1 /treehole/index.php/Home/Message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `message` WHERE `u_id` = 62 ORDER BY m_id desc  [ RunTime:0.0017s ]
+
+[ 2022-02-04T22:49:20+08:00 ] ::1 /treehole/index.php/Home/Message/publish_new_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `user` WHERE `u_id` = 62 LIMIT 1   [ RunTime:0.0015s ]
+SQL: INSERT INTO `message` (`u_id`,`username`,`face_url`,`m_content`,`send_time`) VALUES ('62','小可爱1','http://tmp/gdpkq2DsjiKS1b1a7f3bfe31ecc26a4a9e0a79dd902d.jpeg','我是个小可爱','2022-02-04 22:49:20') [ RunTime:0.0251s ]
+
+[ 2022-02-04T22:49:22+08:00 ] ::1 /treehole/index.php/Home/Message/get_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `message` ORDER BY m_id desc  [ RunTime:0.0032s ]
+
+[ 2022-02-04T22:49:22+08:00 ] ::1 /treehole/index.php/Home/Comment/get_all_comments
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `comment` ORDER BY c_id  [ RunTime:0.0010s ]
+
+[ 2022-02-04T22:49:25+08:00 ] ::1 /treehole/index.php/Home/Message/do_likes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `message` WHERE `m_id` = 90 LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `message` SET `m_id`='90',`u_id`='62',`username`='小可爱1',`face_url`='http://tmp/gdpkq2DsjiKS1b1a7f3bfe31ecc26a4a9e0a79dd902d.jpeg',`m_content`='我是个小可爱',`likes`='1',`send_time`='2022-02-04 22:49:20' WHERE `m_id` = 90 [ RunTime:0.0005s ]
+
+[ 2022-02-04T22:49:48+08:00 ] ::1 /treehole/index.php/Home/Comment/new_comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE `u_id` = 62 LIMIT 1   [ RunTime:0.0012s ]
+SQL: INSERT INTO `comment` (`m_id`,`u_id`,`username`,`face_url`,`c_content`,`audit_time`) VALUES ('90','62','小可爱1','http://tmp/gdpkq2DsjiKS1b1a7f3bfe31ecc26a4a9e0a79dd902d.jpeg','666','2022-02-04 22:49:48') [ RunTime:0.0008s ]
+
+[ 2022-02-04T22:49:48+08:00 ] ::1 /treehole/index.php/Home/Comment/get_all_comments
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `comment` ORDER BY c_id  [ RunTime:0.0016s ]
+
+[ 2022-02-04T22:49:58+08:00 ] ::1 /treehole/index.php/Home/Comment/delete_comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `comment_report` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `comment` WHERE `c_id` = 57 LIMIT 1   [ RunTime:0.0019s ]
+SQL: DELETE FROM `comment_report` WHERE `c_id` = 57 [ RunTime:0.0595s ]
+SQL: DELETE FROM `comment` WHERE `c_id` = 57 [ RunTime:0.0106s ]
+
+[ 2022-02-04T22:49:59+08:00 ] ::1 /treehole/index.php/Home/Comment/get_all_comments
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `comment` ORDER BY c_id  [ RunTime:0.0029s ]
+
+[ 2022-02-04T22:50:09+08:00 ] ::1 /treehole/index.php/Home/Comment/get_all_comments
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `comment` ORDER BY c_id  [ RunTime:0.0012s ]
+
+[ 2022-02-04T22:50:09+08:00 ] ::1 /treehole/index.php/Home/Message/select_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `message` WHERE `m_content` LIKE '%可爱%' ORDER BY m_id desc  [ RunTime:0.0748s ]
+
+[ 2022-02-04T22:51:02+08:00 ] ::1 /treehole/index.php/Home/Message/select_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `message` WHERE `m_content` LIKE '%可爱%' ORDER BY m_id desc  [ RunTime:0.0010s ]
+
+[ 2022-02-04T22:51:02+08:00 ] ::1 /treehole/index.php/Home/Comment/get_all_comments
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `comment` ORDER BY c_id  [ RunTime:0.0009s ]
+

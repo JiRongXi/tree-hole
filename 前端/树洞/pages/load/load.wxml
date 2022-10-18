@@ -1,0 +1,18 @@
+<!--pages/load/load.wxml-->
+
+<view class="view1">
+  <view>
+    <block wx:if="{{!hasUserInfo}}">
+      <button class="button1" wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 授权登录 </button>
+      <button class="button1" wx:else open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 授权登录 </button>
+      <view class="text1">———————— - ————————</view>
+      <view class="text1">欢迎使用小程序，我们需要一些您的公开信息，包括微信昵称、头像等。请放心，我们会妥善保管您的信息</view>
+    </block>
+    <block wx:else>
+      <image class="image1" bindtap="bindViewTap" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="text2">{{userInfo.nickName}}</text>
+      <button class="button1" bindtap="urllogin"> 点击登录 </button>
+    </block>
+   
+  </view>
+</view>

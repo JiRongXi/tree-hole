@@ -1,0 +1,120 @@
+[ 2022-03-19T23:22:06+08:00 ] ::1 /treehole/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.093708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017939s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0852s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13411945045' LIMIT 1   [ RunTime:0.1388s ]
+
+[ 2022-03-19T23:22:06+08:00 ] ::1 /treehole/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13411945045' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2022-03-19T23:22:06+08:00 ] ::1 /treehole/index.php/Home/Message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `message` WHERE `u_id` = 7 ORDER BY m_id desc  [ RunTime:0.0357s ]
+
+[ 2022-03-19T23:22:06+08:00 ] ::1 /treehole/index.php/Home/Message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `message` WHERE `u_id` = 7 ORDER BY m_id desc  [ RunTime:0.0009s ]
+
+[ 2022-03-19T23:22:08+08:00 ] ::1 /treehole/index.php/Home/Message/get_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `message` ORDER BY m_id desc  [ RunTime:0.0007s ]
+
+[ 2022-03-19T23:22:08+08:00 ] ::1 /treehole/index.php/Home/Comment/get_all_comments
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `comment` ORDER BY c_id  [ RunTime:0.0354s ]
+
+[ 2022-03-19T23:22:28+08:00 ] ::1 /treehole/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13411945045' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2022-03-19T23:22:29+08:00 ] ::1 /treehole/index.php/Home/Message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `message` WHERE `u_id` = 7 ORDER BY m_id desc  [ RunTime:0.0007s ]
+
+[ 2022-03-19T23:22:55+08:00 ] ::1 /treehole/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13411945045' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2022-03-19T23:22:55+08:00 ] ::1 /treehole/index.php/Home/Message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `message` WHERE `u_id` = 7 ORDER BY m_id desc  [ RunTime:0.0008s ]
+
+[ 2022-03-19T23:22:57+08:00 ] ::1 /treehole/index.php/Home/Comment/get_all_comments
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `comment` ORDER BY c_id  [ RunTime:0.0006s ]
+
+[ 2022-03-19T23:22:57+08:00 ] ::1 /treehole/index.php/Home/Message/get_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `message` ORDER BY m_id desc  [ RunTime:0.0008s ]
+

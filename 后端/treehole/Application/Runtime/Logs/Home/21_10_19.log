@@ -1,0 +1,483 @@
+[ 2021-10-19T00:08:23+08:00 ] ::1 /treehole/index.php/Home/Message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `message` WHERE `u_id` = 1 ORDER BY m_id desc  [ RunTime:0.0034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2021-10-19T00:08:30+08:00 ] ::1 /treehole/index.php/Home/Message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `message` WHERE `u_id` = 1 ORDER BY m_id desc  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2021-10-19T00:08:43+08:00 ] ::1 /treehole/index.php/Home/Message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `message` WHERE `u_id` = 1 ORDER BY m_id desc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2021-10-19T00:10:26+08:00 ] ::1 /treehole/index.php/Home/Message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `message` WHERE `u_id` = 1 ORDER BY m_id desc  [ RunTime:0.0003s ]
+
+[ 2021-10-19T00:22:06+08:00 ] ::1 /treehole/index.php/Home/Message/delete_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+NOTIC: [8] Undefined index: m_id E:\wamp64\www\treehole\Application\Home\Controller\MessageController.class.php 第 129 行.
+
+[ 2021-10-19T00:22:14+08:00 ] ::1 /treehole/index.php/Home/Message/delete_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `message` WHERE `m_id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+ERR: Call to a member function where() on array
+
+[ 2021-10-19T00:22:31+08:00 ] ::1 /treehole/index.php/Home/Message/delete_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `message` WHERE `m_id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+ERR: Call to a member function where() on array
+
+[ 2021-10-19T00:25:21+08:00 ] ::1 /treehole/index.php/Home/Message/delete_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `message` WHERE `m_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `message` WHERE `m_id` = 1 [ RunTime:0.0003s ]
+
+[ 2021-10-19T00:29:10+08:00 ] ::1 /treehole/index.php/Home/Message/delete_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `message` WHERE `m_id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: DELETE FROM `message` WHERE `m_id` = 5 [ RunTime:0.0002s ]
+
+[ 2021-10-19T00:30:20+08:00 ] ::1 /treehole/index.php/Home/Message/publish_new_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0041s ]
+SQL: INSERT INTO `message` (`u_id`,`username`,`face_url`,`m_content`,`likes`,`send_time`) VALUES ('5','硕大的','xxx.jpg','拉喀什决斗链接艾斯欧的骄傲搜','0','2021-10-19 00:30:20') [ RunTime:0.0004s ]
+
+[ 2021-10-19T00:30:50+08:00 ] ::1 /treehole/index.php/Home/Message/delete_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `message` WHERE `m_id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2021-10-19T00:30:59+08:00 ] ::1 /treehole/index.php/Home/Message/delete_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `message` WHERE `m_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `message` WHERE `m_id` = 6 [ RunTime:0.0003s ]
+
+[ 2021-10-19T01:15:17+08:00 ] 127.0.0.1 /treehole/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+ERR: 非法操作:index
+
+[ 2021-10-19T01:26:02+08:00 ] ::1 /treehole/index.php/Home/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000260s ]
+
+[ 2021-10-19T01:26:23+08:00 ] 127.0.0.1 /treehole/index.php/Home/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000264s ]
+
+[ 2021-10-19T01:26:33+08:00 ] 127.0.0.1 /treehole/index.php/Home/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000152s ]
+
+[ 2021-10-19T01:26:51+08:00 ] 127.0.0.1 /treehole/index.php/Home/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000153s ]
+
+[ 2021-10-19T01:27:04+08:00 ] 127.0.0.1 /treehole/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+ERR: 非法操作:index
+
+[ 2021-10-19T21:10:04+08:00 ] ::1 /treehole/index.php/Home/Test/test2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1457s ]
+SQL: SELECT * FROM `user` WHERE `u_id` = 1  [ RunTime:0.0039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2021-10-19T21:21:41+08:00 ] ::1 /treehole/index.php/Home/User/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Undefined index: username E:\wamp64\www\treehole\Application\Home\Controller\UserController.class.php 第 12 行.
+
+[ 2021-10-19T21:22:04+08:00 ] ::1 /treehole/index.php/Home/User/sign?username=%E5%BC%A0%E8%83%9C%E5%88%A9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+NOTIC: [8] Undefined index: username E:\wamp64\www\treehole\Application\Home\Controller\UserController.class.php 第 12 行.
+
+[ 2021-10-19T21:22:40+08:00 ] ::1 /treehole/index.php/Home/User/sign?username=%E5%BC%A0%E8%83%9C%E5%88%A9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined index: phone E:\wamp64\www\treehole\Application\Home\Controller\UserController.class.php 第 20 行.
+
+[ 2021-10-19T21:23:01+08:00 ] ::1 /treehole/index.php/Home/User/sign?username=%E5%BC%A0%E8%83%9C%E5%88%A9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: password E:\wamp64\www\treehole\Application\Home\Controller\UserController.class.php 第 28 行.
+
+[ 2021-10-19T21:23:31+08:00 ] ::1 /treehole/index.php/Home/User/sign?username=%E5%BC%A0%E8%83%9C%E5%88%A9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000189s ]
+
+[ 2021-10-19T21:23:41+08:00 ] ::1 /treehole/index.php/Home/User/sign?username=%E5%BC%A0%E8%83%9C%E5%88%A9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13411945039' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `user` (`username`,`phone`,`password`,`face_url`) VALUES ('张胜利','13411945039','e10adc3949ba59abbe56e057f20f883e','xxx.jpg') [ RunTime:0.0906s ]
+
+[ 2021-10-19T21:25:18+08:00 ] ::1 /treehole/index.php/Home/User/sign?username=%E5%BC%A0%E8%83%9C%E5%88%A9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13411945039' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `user` (`username`,`phone`,`password`,`face_url`) VALUES ('张胜利','13411945039','fcea920f7412b5da7be0cf42b8c93759','xxx.jpg') [ RunTime:0.0002s ]
+
+[ 2021-10-19T21:28:02+08:00 ] ::1 /treehole/index.php/Home/User/sign?username=%E5%BC%A0%E8%83%9C%E5%88%A9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13411945039' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `user` (`username`,`phone`,`password`,`face_url`) VALUES ('张胜利','13411945039','fcea920f7412b5da7be0cf42b8c93759','xxx.jpg') [ RunTime:0.0001s ]
+
+[ 2021-10-19T21:30:07+08:00 ] ::1 /treehole/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13411945039' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2021-10-19T21:59:17+08:00 ] ::1 /treehole/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+NOTIC: [8] Undefined index: phone E:\wamp64\www\treehole\Application\Home\Controller\UserController.class.php 第 105 行.
+
+[ 2021-10-19T21:59:27+08:00 ] ::1 /treehole/index.php/Home/Message/publish_new_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0038s ]
+SQL: INSERT INTO `message` (`u_id`,`username`,`face_url`,`m_content`,`likes`,`send_time`) VALUES ('1','张胜利','xxx.jpg','askjalsflkasflkajsflkjas','0','2021-10-19 21:59:27') [ RunTime:0.0194s ]
+
+[ 2021-10-19T21:59:47+08:00 ] ::1 /treehole/index.php/Home/Message/do_likes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined index: m_id E:\wamp64\www\treehole\Application\Home\Controller\MessageController.class.php 第 128 行.
+
+[ 2021-10-19T22:00:02+08:00 ] ::1 /treehole/index.php/Home/Message/do_likes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: likes E:\wamp64\www\treehole\Application\Home\Controller\MessageController.class.php 第 143 行.
+SQL: UPDATE `message` SET `likes`='1' WHERE `m_id` = 1 [ RunTime:0.0314s ]
+
+[ 2021-10-19T22:04:55+08:00 ] ::1 /treehole/index.php/Home/Message/do_likes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined index: likes E:\wamp64\www\treehole\Application\Home\Controller\MessageController.class.php 第 148 行.
+SQL: SELECT * FROM `message` WHERE `m_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `message` SET `likes`='1' WHERE `m_id` = 1 [ RunTime:0.0012s ]
+
+[ 2021-10-19T22:05:35+08:00 ] ::1 /treehole/index.php/Home/Message/do_likes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: likes E:\wamp64\www\treehole\Application\Home\Controller\MessageController.class.php 第 148 行.
+SQL: SELECT * FROM `message` WHERE `m_id` = 7 LIMIT 1   [ RunTime:0.0658s ]
+SQL: UPDATE `message` SET `likes`='1' WHERE `m_id` = 7 [ RunTime:0.0003s ]
+
+[ 2021-10-19T22:06:02+08:00 ] ::1 /treehole/index.php/Home/Message/do_likes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined index: likes E:\wamp64\www\treehole\Application\Home\Controller\MessageController.class.php 第 148 行.
+SQL: UPDATE `message` SET `likes`='1' WHERE `m_id` = 7 [ RunTime:0.0014s ]
+
+[ 2021-10-19T22:06:16+08:00 ] ::1 /treehole/index.php/Home/Message/do_likes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: likes E:\wamp64\www\treehole\Application\Home\Controller\MessageController.class.php 第 148 行.
+SQL: UPDATE `message` SET `likes`='1' WHERE `m_id` = 7 [ RunTime:0.0002s ]
+
+[ 2021-10-19T22:06:33+08:00 ] ::1 /treehole/index.php/Home/Message/do_likes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: likes E:\wamp64\www\treehole\Application\Home\Controller\MessageController.class.php 第 148 行.
+SQL: UPDATE `message` SET `likes`='1' WHERE `m_id` = 7 [ RunTime:0.0005s ]
+
+[ 2021-10-19T22:07:20+08:00 ] ::1 /treehole/index.php/Home/Message/do_likes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: likes E:\wamp64\www\treehole\Application\Home\Controller\MessageController.class.php 第 148 行.
+SQL: UPDATE `message` SET `likes`='1' WHERE `m_id` = 7 [ RunTime:0.0002s ]
+
+[ 2021-10-19T22:09:17+08:00 ] ::1 /treehole/index.php/Home/Message/do_likes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `message` WHERE `m_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `message` SET `m_id`='7',`u_id`='1',`username`='张胜利',`face_url`='xxx.jpg',`m_content`='askjalsflkasflkajsflkjas',`likes`='2',`send_time`='2021-10-19 21:59:27' WHERE `m_id` = 7 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\wamp64\www\treehole\Application\Home\Controller\MessageController.class.php 第 155 行.
+
+[ 2021-10-19T22:09:19+08:00 ] ::1 /treehole/index.php/Home/Message/do_likes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `message` WHERE `m_id` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `message` SET `m_id`='7',`u_id`='1',`username`='张胜利',`face_url`='xxx.jpg',`m_content`='askjalsflkasflkajsflkjas',`likes`='3',`send_time`='2021-10-19 21:59:27' WHERE `m_id` = 7 [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: data E:\wamp64\www\treehole\Application\Home\Controller\MessageController.class.php 第 155 行.
+
+[ 2021-10-19T22:09:21+08:00 ] ::1 /treehole/index.php/Home/Message/do_likes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `message` WHERE `m_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `message` SET `m_id`='7',`u_id`='1',`username`='张胜利',`face_url`='xxx.jpg',`m_content`='askjalsflkasflkajsflkjas',`likes`='4',`send_time`='2021-10-19 21:59:27' WHERE `m_id` = 7 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\wamp64\www\treehole\Application\Home\Controller\MessageController.class.php 第 155 行.
+
+[ 2021-10-19T22:09:32+08:00 ] ::1 /treehole/index.php/Home/Message/do_likes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `message` WHERE `m_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `message` SET `m_id`='7',`u_id`='1',`username`='张胜利',`face_url`='xxx.jpg',`m_content`='askjalsflkasflkajsflkjas',`likes`='5',`send_time`='2021-10-19 21:59:27' WHERE `m_id` = 7 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\wamp64\www\treehole\Application\Home\Controller\MessageController.class.php 第 155 行.
+
+[ 2021-10-19T22:09:58+08:00 ] ::1 /treehole/index.php/Home/Message/do_likes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `message` WHERE `m_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `message` SET `m_id`='7',`u_id`='1',`username`='张胜利',`face_url`='xxx.jpg',`m_content`='askjalsflkasflkajsflkjas',`likes`='6',`send_time`='2021-10-19 21:59:27' WHERE `m_id` = 7 [ RunTime:0.0003s ]
+
+[ 2021-10-19T22:12:16+08:00 ] ::1 /treehole/index.php/Home/Message/do_likes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `message` WHERE `m_id` = 7 LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: likes E:\wamp64\www\treehole\Application\Home\Controller\MessageController.class.php 第 148 行.
+
+[ 2021-10-19T22:12:48+08:00 ] ::1 /treehole/index.php/Home/Message/do_likes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `message` WHERE `m_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `message` SET `m_id`='7',`u_id`='1',`username`='张胜利',`face_url`='xxx.jpg',`m_content`='askjalsflkasflkajsflkjas',`likes`='7',`send_time`='2021-10-19 21:59:27' WHERE `m_id` = 7 [ RunTime:0.0002s ]
+

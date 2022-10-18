@@ -1,0 +1,35 @@
+<!--pages/mine/mine.wxml-->
+<view class="box1">
+    <image class="touxiang" src="{{face_url}}" bindtap="changeFace_url"></image>
+    <block wx:if="{{!is_chose_up_username}}">
+        <view class="name" bindtap="changeUsername" data-upusername="{{1}}">{{username}}</view>
+    </block>
+    <block wx:else class="upbox">
+        <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+        <input class="inputname" type="text" value="{{username}}" bindinput="upUsernameInput"></input>
+        <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;</text>
+        <view class="test">
+            <view class="xiugai" bindtap="changeUsername" data-upusername="{{0}}">修改</view>
+            <view class="quxiao" bindtap="changeUsername" data-upusername="{{-1}}">取消</view>
+        </view>
+    </block>
+</view>
+
+<block wx:for="{{showdata}}" wx:for-item="itemName" wx:for-index="id" wx:key="key">
+    <view class="bigbox">
+        <view class="box2">
+            <view>{{itemName.m_content}}</view>
+            <view class="time1">{{itemName.send_time}}</view>
+        </view>
+
+        <view class="box3">
+            <image class="like1" src="/images/like.png"></image>
+            <view class="textlike">{{itemName.likes}}</view>
+            <view class="delete1" bindtap="delete" data-m_id="{{itemName.m_id}}">删除</view>
+        </view>
+    </view>
+</block>
+
+<view class="vx"> 已到达最底部</view>
+
+<include src="/pages/bottom_menu/bottom_menu" />

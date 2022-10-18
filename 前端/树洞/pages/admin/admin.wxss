@@ -1,0 +1,21 @@
+/* pages/admin/admin.wxss */
+page{
+    /* background-color: #ecc9d6; */
+    background-image: linear-gradient(to bottom right, #e4ebf8, #4893fc);
+}
+
+.view1{
+    margin-top: 17%;
+    margin-left: 22%; 
+}
+
+.view2{
+    height: 100rpx;
+    margin-top: 80rpx;
+    line-height: 100rpx;
+    font-size:50rpx;
+    font-weight: 800;
+    text-align:left;
+    padding-left: 8%;
+    color: #585947;
+}

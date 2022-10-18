@@ -1,0 +1,23 @@
+<!--pages/data_table/data_table.wxml-->
+<view class="tbale">
+    <view class="tr">
+        <text class="th" decode="ture">用&nbsp;&nbsp;&nbsp;&nbsp;户&nbsp;&nbsp;&nbsp;数</text>
+        <view class="td1">{{data.user_num}}</view>
+    </view>
+    <view class="tr">
+        <text class="th" decode="ture">树&nbsp;&nbsp;&nbsp;&nbsp;洞&nbsp;&nbsp;&nbsp;数</text>
+        <view class="td1">{{data.message_num}}</view>
+    </view>
+    <view class="tr">
+        <text class="th" decode="ture">评&nbsp;&nbsp;&nbsp;&nbsp;论&nbsp;&nbsp;&nbsp;数</text>
+        <view class="td1">{{data.comment_num}}</view>
+    </view>
+    <view class="tr">
+        <view class="th">树洞举报数</view>
+        <view class="td1">{{data.message_report_num}}</view>
+    </view>
+    <view class="tr">
+        <view class="th">评论举报数</view>
+        <view class="td1">{{data.comment_report_num}}</view>
+    </view>
+</view>

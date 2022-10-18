@@ -1,0 +1,10 @@
+[ 2022-01-20T02:45:40+08:00 ] ::1 /treehole/index.php/Home/Admin/get_all_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.3893s ]
+SQL: SELECT * FROM `user` ORDER BY u_id asc  [ RunTime:0.1134s ]
+

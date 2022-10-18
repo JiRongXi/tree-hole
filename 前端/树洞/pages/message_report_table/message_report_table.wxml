@@ -1,0 +1,26 @@
+<!--pages/message_report_table/message_report_table.wxml-->
+<view class="maxbox">
+    <!-- 举报信息循环输出 -->
+    <block wx:for="{{message_report_data}}" wx:for-item="itemName" wx:for-index="id" wx:key="key" >
+        <view class="bigbox">
+            <!-- 被举报者信息 -->
+            <view class="box1">
+                <image class="touxiang" src="{{itemName.face_url}}"></image>
+                <view class="person">
+                    <view class="name">{{itemName.username2}}</view>
+                    <view class="text1">{{itemName.m_content}}</view>
+                </view>
+            </view>
+
+            <!-- 举报消息栏 -->
+            <view class="box2">
+                <view class="text2">举报原因：{{itemName.mr_content}}</view>
+                <view class="box3">
+                    <view class="time">{{itemName.mr_time}} </view>
+                    <view class="delete" bindtap="delete" data-m_id="{{itemName.m_id}}">删除</view>
+                </view>
+            </view>
+        </view>
+    </block>
+    <view class="bestbottom"> 已到达最底部</view>
+</view>

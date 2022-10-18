@@ -1,0 +1,28 @@
+{
+  "pages": [    
+    "pages/login/login",
+    "pages/load/load",
+    "pages/enroll/enroll",
+    "pages/mine/mine",
+    "pages/square/square",      
+    "pages/select_data/select_data",
+    "pages/message_report/message_report",
+    "pages/comment_report/comment_report",
+    "pages/commit/commit",
+    "pages/bottom_menu/bottom_menu",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/admin/admin", 
+    "pages/user_table/user_table",
+    "pages/message_report_table/message_report_table",
+    "pages/comment_report_table/comment_report_table",
+    "pages/data_table/data_table"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#efefef",
+    "navigationBarTextStyle": "black",
+    "backgroundTextStyle": "light"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

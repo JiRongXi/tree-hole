@@ -1,0 +1,85 @@
+<!--pages/square/square.wxml-->
+<view class="selectbox">
+        <textarea class="selecttext" bindinput="selectInput" maxlength="100"></textarea>
+        <view class="selectbox2" bindtap="select">
+            <image class="select" src="/images/select.png"></image>
+        </view>
+</view>
+
+<view class="maxbox">
+    <!-- 树洞消息循环输出 -->
+    <block wx:for="{{showdata}}" wx:for-item="itemName" wx:for-index="id" wx:key="key" >
+        <view class="bigbox">
+            <view class="box1">
+                <image class="touxiang" src="{{itemName.face_url}}"></image>
+                <view class="person1">
+                    <view class="name1">{{itemName.username}}</view>
+                    <view class="text1">{{itemName.m_content}}</view>
+                </view>
+            </view>
+            <!-- 树洞操作栏 -->
+            <view class="box3">
+                <view class="time1">{{itemName.send_time}} </view>
+                <view class="likebox">
+                    <image class="like" src="{{itemName.islike == 1 ? '/images/likeplus.png':'/images/like.png'}}" bindtap="like" data-m_id="{{itemName.m_id}}"></image>
+                    <view class="textlike" wx:if="{{itemName.likes!=0}}">{{itemName.likes}}</view>
+                </view>
+                <image class="comment" src="/images/comment.png" bindtap="comment1" data-m_id="{{itemName.m_id}}"></image>
+                <image class="more" src="/images/more.png" bindtap="more" data-more_m_id="{{itemName.m_id}}"></image>
+            </view>
+            <!-- 举报 -->
+            <block wx:if="{{more_m_id==itemName.m_id}}">
+                <block wx:if="{{u_id != itemName.u_id}}">
+                    <view class="reportbox" bindtap="report" data-m_id="{{itemName.m_id}}" data-m_u_id="{{itemName.u_id}}">举报</view>
+                </block>
+                <block wx:else>
+                    <view class="reportbox" bindtap="delete" data-m_id="{{itemName.m_id}}">删除</view>
+                </block>
+            </block>
+
+            <!-- 评论 -->
+            <block wx:for="{{show_cdata}}" wx:for-item="itemName2" wx:for-index="id" wx:key="key" >
+                <view wx:if="{{itemName.m_id==itemName2.m_id}}">
+                    <view class="box4">
+                        <image class="touxiang2" src="{{itemName2.face_url}}"></image>
+                        <view class="person2">
+                            <view class="name2">{{itemName2.username}}</view>
+                            <view class="text2">{{itemName2.c_content}} </view>
+                        </view>
+                    </view>
+
+                    <!-- 评论操作栏 -->
+                    <view class="box5">
+                        <view class="c_time">{{itemName2.audit_time}}</view>
+                        <view class="c_likebox">
+                            <image class="c_like" src="{{itemName2.islike == 1 ? '/images/likeplus.png':'/images/like.png'}}" bindtap="c_like" data-c_id="{{itemName2.c_id}}"></image>
+                            <view class="c_textlike" wx:if="{{itemName2.likes!=0}}">{{itemName2.likes}}</view>
+                        </view>
+                        <image class="c_more" src="/images/more.png" bindtap="c_more" data-more_c_id="{{itemName2.c_id}}"></image>
+                    </view>
+                    <!--评论更多 -->
+                    <block wx:if="{{more_c_id==itemName2.c_id}}">
+                        <view class="morebox">
+                            <block wx:if="{{u_id != itemName2.u_id}}">
+                                <view bindtap="c_report" data-c_id="{{itemName2.c_id}}" data-c_u_id="{{itemName2.u_id}}">举报</view>
+                            </block>
+                            <block wx:else>
+                                <view bindtap="c_delete" data-c_id="{{itemName2.c_id}}">删除</view>
+                            </block>
+                        </view>
+                    </block>
+
+                </view>
+            </block>
+
+            <!-- 评论发送框 -->
+            <view wx:if="{{m_id == itemName.m_id}}" class="textbox" data-m_id="{{itemName.m_id}}">
+                <textarea class="textcomment" placeholder="评论" bindinput="bindTextArea" maxlength="500"></textarea>
+                <view class="send" bindtap="comment2" data-m_id="{{itemName.m_id}}">发送</view>
+            </view>
+        </view>
+    </block>
+    <view class="bestbottom"> 已到达最底部</view>
+</view>
+
+<include src="/pages/bottom_menu/bottom_menu" />

@@ -1,0 +1,3 @@
+<!--pages/commit/commit.wxml-->
+<textarea class="textarea" placeholder="发布树洞吧" bindinput="bindTextAreaBlur" maxlength="2000"></textarea>
+<view class="click" bindtap="regist" bindtap="send">发布树洞</view>

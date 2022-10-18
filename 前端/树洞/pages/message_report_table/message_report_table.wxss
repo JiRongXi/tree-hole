@@ -1,0 +1,105 @@
+/* pages/message_report_table/message_report_table.wxss */
+page {
+    background-image: linear-gradient(to bottom right, #e4ebf8, #4893fc);
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.bigbox {
+    width: 100%;
+    margin-top: 10rpx;
+    padding-top: 10rpx;
+    border-bottom: 15rpx solid #EFEFEF;
+    font-size: 35rpx;
+}
+
+.box1 {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.box2 {
+    width: 90%;
+    margin-top: 30rpx;
+    margin-left: 6%;
+    margin-right: 4%;
+    border-top: 5rpx solid #BBBBBB;
+}
+
+.box3 {
+    width: 90%;
+    margin-top: 10rpx;
+    margin-bottom: 20rpx;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.touxiang {
+    width: 100rpx;
+    height: 100rpx;
+}
+
+.person {
+    width: 75%;
+    margin-left: 30rpx;
+    margin-top: 10rpx;
+}
+
+.name {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 10rpx;
+    color: #3a8fff;
+    font-weight: 600;
+}
+
+.text1 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 10rpx;
+    font-weight: 500;
+    word-break: break-all;
+    color: black;
+}
+
+.text2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 10rpx;
+    font-weight: 500;
+    word-break: break-all;
+    color: black;
+}
+
+.time {
+    margin-top: 5rpx;
+    font-size: 30rpx;
+    color: #8a8a8a;
+    font-weight: 500;
+}
+
+.delete {
+    margin-left: 250rpx;
+    font-weight: 500;
+    color: red;
+}
+
+.bestbottom {
+    margin-top: 3rpx;
+    margin-bottom: 15rpx;
+    font-size: 35rpx;
+    color: #6b6969;
+    text-align: center;
+
+}

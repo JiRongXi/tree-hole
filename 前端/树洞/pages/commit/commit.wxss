@@ -1,0 +1,28 @@
+/* pages/commit/commit.wxss */
+page{
+    background-color: #efefef;
+}
+
+.textarea{
+    background-color: white;
+    width: 92%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    font-size: 38rpx;
+
+}
+
+.click{
+    width: 90%;
+    height: 100rpx;
+    line-height: 100rpx;
+    margin-top: 50rpx;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    background-color: #F76968;
+    color:white;
+    font-size: 33rpx;
+    border-radius: 10rpx;
+}

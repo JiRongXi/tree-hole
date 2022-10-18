@@ -1,0 +1,12 @@
+[ 2021-11-06T13:56:42+08:00 ] 127.0.0.1 /treehole/index.php/Test/test2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.170823s ]
+ERR: 无法加载模块:Test
+
+[ 2021-11-06T14:03:10+08:00 ] ::1 /treehole/index.php/Test/test2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+ERR: 无法加载模块:Test
+

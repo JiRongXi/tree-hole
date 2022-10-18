@@ -1,0 +1,7 @@
+<!--pages/admin/admin.wxml-->
+<view class="view1">
+    <view class="view2" bindtap="user_table">1 用户表</view>
+    <view class="view2" bindtap="message_report_table">2 树洞举报信息</view>
+    <view class="view2" bindtap="comment_report_table">3 评论举报信息</view>
+    <view class="view2" bindtap="data_table">4 数据统计</view>
+</view>

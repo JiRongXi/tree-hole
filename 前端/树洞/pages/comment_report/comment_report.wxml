@@ -1,0 +1,4 @@
+<!--pages/comment_report/comment_report.wxml-->
+<textarea class="textarea" placeholder="请输入举报原因" bindinput="bindTextAreaBlur" maxlength="500"></textarea>
+<view class="click" bindtap="regist" bindtap="send">举报</view>
+
